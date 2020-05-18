@@ -16,3 +16,9 @@ We will also use nodemon as our dev-dependency to be able to save and run our ch
 Run the following command in the terminal from our project directory,
 
 `npm i -D nodemon`
+
+## Setup
+- `npm install`
+
+### Run
+- npm start
