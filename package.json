@@ -1,0 +1,33 @@
+{
+  "name": "redis-node-app",
+  "version": "1.0.0",
+  "description": "Nodejs supported by cache with redis",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexxsanya/redis-cache-nodejs.git"
+  },
+  "keywords": [
+    "redis",
+    "nodejs",
+    "cache"
+  ],
+  "author": "alexxsanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexxsanya/redis-cache-nodejs/issues"
+  },
+  "homepage": "https://github.com/alexxsanya/redis-cache-nodejs#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
